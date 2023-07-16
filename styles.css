@@ -1,0 +1,104 @@
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.container {
+  width: 400px;
+  margin: 20px 50px;
+  border: 1px solid rgb(158, 150, 150);
+  border-radius: 20px;
+  background: rgba(6, 6, 6, 0.909);
+}
+
+h1 {
+  text-align: center;
+  color: white;
+}
+
+.form-group {
+  margin: 20px auto;
+  text-align: center;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.email1 {
+  width: 80%;
+  height: 40px;
+  margin: 10px 30px;
+  font-size: 16px;
+  text-align: center;
+  border-radius: 5px;
+  border: none;
+  background: url(email3.jpg) no-repeat center left , rgb(90, 88, 88);
+  
+}
+
+.email2 {
+  width: 80%;
+  height: 40px;
+  margin: 10px 30px;
+  font-size: 16px;
+  text-align: center;
+  border-radius: 5px;
+  border: none;
+  background: url(password1.png) no-repeat center left , rgb(90, 88, 88);
+  
+}
+
+
+
+.password-toggle {
+  display: block;
+  font-size: 15px;
+  margin: 0 20px;
+  cursor: pointer;
+  color: rgb(207, 207, 216);
+}
+
+button {
+  background-color: red;
+  color: white;
+  width: 200px;
+  height: 50px;
+  margin: 5px 100px;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+button:hover {
+  background-color: #ca6725;
+
+}
+
+.user{
+  display: inline-block;
+  width: 130px;
+  height: 40px;
+  margin: 15px 30px;
+  font-size: 16px;
+  text-align: center;
+  border-radius: 5px;
+  border: none;
+  background:  rgb(90, 88, 88);
+}
+
+
+
+a{
+  text-align: center;
+  color: gray;
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration: none;
+
+}
